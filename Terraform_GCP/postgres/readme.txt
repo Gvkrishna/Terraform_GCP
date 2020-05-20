@@ -1,0 +1,1 @@
+postgresql with terraform ubuntu using wget 

@@ -1,0 +1,1 @@
+bigtable,dataproc,bucket,computevm,output

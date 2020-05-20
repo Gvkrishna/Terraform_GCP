@@ -1,0 +1,23 @@
+{
+  "type": "service_account",
+  "project_id": "dataproc-274104",
+  "private_key_id": "7e8c2490f1db37759525b9824816dc1baf99e073",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDWjTjxE6O14ldw\nf60o9++QCCiMrbjTRIsl5N2F0DZH7U9clHUu9oT6FY3C6XRFwXhqZmuY3xs2CrSf\n7DFxoZTJPb/aR3uPjpfKwZX+rp0Wfy70oO328HWSuJFWRZ0xbRq45IF3R0K1fXS4\n74AxohhA56xy3rpQmlHdPNrSxu4UThlLwlAUJjSZvA8wRa2r8i1ZpzpXbkG0qndN\nS72/NmHVCY24Fpc5uDHgR4p8ZYFmXS1NrkWFAD5DmbBkrTazIzHHq1+wWj2UbTee\nVyHOt/vhflB9Lg+YXg9PmDTwTgtKbFI6gfiqoDbugp25g81xgrAECm5bANR7yyoj\nSE54BtVlAgMBAAECggEAHRVKI3W90p0yrKOGAcBwJyZP9tfirrLDKPkX5Th27zOW\nNy7BnsLYfjz3OTVjp0QFUmj9S1zs55u2ZdpCzowwasIV1F0tvOU/osKwljQtw5us\nbgk1kKyCR4gA3YC0wPsw7OC+wwA0JP1zWdFPX4sBPiUZbX3PJDdzAuopoHpKUhKP\nhl6Be4FQZhho3TXhIE79vebqdISFKzmqcFSDJAs4RRTm3Y+J2I5eqj9ACpyjWJmX\nOrQylAj4AJpj76bHkJKB5ff1QBJIpWgNky5wtHsgJyzL0VO5zsK5ccOVzaxkrNWT\nQ3m/6pOav0Xcvd5Wr5DMfBvl7eIsQdIazCGtudZYWQKBgQD05B7eugJkqMW3aAhG\npWvSwfXkw3ble6XAAHd7jQ+jSJRH25kq0+I57OH2qBEGbCnihStGyu+CaUGF1IvQ\nQPMgmiBLF6GOFKC+zG3JAqAAUspCxqMLcEe/6qdkZOoM7ixjA1Skus0UUtvIp3hR\nyKCoIaLL5GYvsnc4I32rSj8GuQKBgQDgSMZhSzCd6TOjGSg/ntinHkbAtoos/grt\nsRG9YNh2SD5+c3pDdCxPsbJ+xo7DZrJoRpu52wI3YXJ7YMzTAodAtFg0nkSE8ii6\noWXyOCsR393ufJWS22mMYL1jrMa3dSW3NXn7uhEROH9jmv5kOjD+g7HuGVJU2WWt\nthf4lXBuDQKBgHvWY/nzjEREyH7/v7eh7U2Nwf/mDFjt1xqp4cH7yl2i1UElPmZW\n8X6jWH037iwWRHQFLaZF9yo2eejoW697OLdS2WO/1nWX3tW9YQMWLb0cIKX19vtQ\n0yeszOtK0MSrKI0FYSdQQ2a0o+nrLkAFOaDsKXv7yuTx1bHw2JrnF8oZAoGBANfs\neEB22OlN986Pi7YkQUQy277wffpu4SqQjBmcQQku6CtpFU4XbAmVc9ilZBAusJe/\nUnENrgaPJF4vhUGob3oVpc2SiTjMwfVbKQCWnrBorArLmlx2LBlfkTWCwxUgDR1i\nuHtmWMQRdmL4du0bMMv3Ebe+XQse+MrSQiWqCUGJAoGAJ9Lxq8IE9ImgEVR6Y4kU\nwvKd7Hpl0V9qrop2Zg1U94y5E8Y/KDLHr2XgSfdRcrv/tjFJz8lDZ8OwFAv8fb93\n3Us6nLlXhm6pPkexe5FfDlFYhdda24rkkLPfM0bTAT72oQ8hU3SFpdZJYp82BZpk\nBqQwLD2Ldu/i+SNTjqbSErI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dataproc@dataproc-274104.iam.gserviceaccount.com",
+  "client_id": "112448172721911036961",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dataproc%40dataproc-274104.iam.gserviceaccount.com"
+}
+
+
+
+
+#"https://www.googleapis.com/auth/monitoring",
+
+
+
+single node or multi node based on the perameter 
+
+autoscaing 

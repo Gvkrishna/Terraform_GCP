@@ -1,0 +1,80 @@
+
+
+cloudshell
+datalab create terraform-bigtable-datalab --zone us-central1-a --project terraform-bigtable-1 --service-account 106715105879
+075315792 --verbosity=debug
+
+change the port to 8081 using web 
+
+!pip install google-cloud-bigtable==0.30.0
+
+!pip install google-cloud-core==0.28.0
+
+from google.cloud import bigtable
+import string
+
+project_id = 'terraform-bigtable-1'
+
+client = bigtable.Client(project=project_id, admin=True)
+
+instance_id = 'bigtable'
+instance = client.instance(instance_id)
+
+table_id = 'mytable_catalog'
+table = instance.table(table_id)
+table.create()
+print('Creating the {} table.'.format(table_id))
+
+Creating the mytable_catalog table.
+
+column_family_id1 = 'mybigtablemetadata_family1'
+col_fam1 = table.column_family(column_family_id1)
+col_fam1.create()
+
+column_family_id2 = 'mybigtablemetadata_family2'
+col_fam2 = table.column_family(column_family_id2)
+col_fam2.create()
+
+
+
+
+print('Create columns')
+column1 = 'product_id'
+column2 = 'product_name'
+column3 = 'variants'
+column4 = 'color'
+column5 = 'price'
+
+values1 = '1234567'
+values2 = 'mangos'
+values3 = 'type,weight'
+values4 = 'yellow,green'
+values5 = 'location'
+
+
+values1 = '98765432'
+values2 = 'car'
+values3 = 'maruthi,weight'
+values4 = 'yellow,green'
+values5 = 'modal'
+
+Create columns
+
+cbt read  mytable_catalog --> in bigtable instance
+
+row_key1 = 'CG-1234-DFCL-QP'
+row1 = table.row(row_key1)
+
+row1.set_cell(column_family_id1,column1, value1.encode('utf-8'))
+row1.set_cell(column_family_id1,column2, value2.encode('utf-8'))
+row1.set_cell(column_family_id1,column3, value3.encode('utf-8'))
+row1.set_cell(column_family_id1,column4, value4.encode('utf-8'))
+row1.set_cell(column_family_id1,column5, value5.encode('utf-8'))
+
+row1.commit()
+
+print('Deleting the {} table.'.format(table_id))
+table.delete()
+
+cbt read mytable_catalog  --> in bigtable instance
+

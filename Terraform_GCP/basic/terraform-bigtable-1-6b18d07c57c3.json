@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "terraform-bigtable-1",
+  "private_key_id": "6b18d07c57c3a339ca94c45832dd91bfcc528a88",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAeeSR3iwUodgp\ngbqFU0s/PMsMQ+Hds7IZx81bJgo7ZByn8gc/hkzPGiITVQwa7NkFVMt44giFk5qm\niBWHZO+EXOo47Dk7fBUPbS846/nxzBCM5iHKBgX0PlgHGYGul/rxXFRXZKpW7Z43\nfmrYU3Xy6HMLRn4Ja8L0ixG6y8rOQVPERF9XRPHdFi+riS8DukpRX/JPWWzxFmLa\nKMMRZ3WTlpoHeypoAd57dSUqImS3Vm6fv4C07LReYHq/1ebDqo74vEjk+85BawLj\ngRES7hNXJcANdGpjH0iTnQfn891IjlhL5xF8ArO3O5/XWm1ckMNsrfZP0EU7hwkA\nB0ejALBnAgMBAAECggEAWUrTJnanBYVVtl/IK50KLhKichS13nfEWqBuHOiHW6kk\ngCdQhIBl9rg9cbGFVaJmRcpiQLi/0lQ5LSO5tR+23DWMtY6lOHrmfEsfWq1ivXF5\nhhwnNcVYksgvZ0/GcTxxfvJh8E8zlPNUcJM1txj1AZUj9emkg/NZtMAln/52Hfux\nfrBOLcO/mHt8GFXo7/u12ux7805qyavnLaXFVCYwnDXueP8hvx1okHetyOgjwrpa\nRZJBgR8ODIM/EjaYae3QSuda2KBqK5CinF0GxMYeoslw4Nte1k+U0fEPVVgYqPBw\njYSyELJfZ8cGFWMgOPofv8E+8TT52fHRGRsFOLKyEQKBgQD/sH8jCzJPS7yHvH/V\nnhXSPSnMFlytG7JCFz5ztmGkyRV4KxWpAt7EpsPAAVnCLyD5rYj9AdpOvcbl8oLu\nN8pR0AV2aEUfi0NPakLKygjUsAtNdUtsLWba2C3V1kALGrVHbQmjsef1Pt12hsdQ\nvNZoZbcw02/ApDNeVYXFYJDLUQKBgQDAtb2omH58Hqay+EK75nkCmc9kRIuD6UpW\nqYD++VHzttOK04d+yosHSnVZc1GmN4sggHQDnCoef4TmnKaBZdYXQROQKHoVuANq\n3gN/PnwonSzmG2OlStA8PjDa7SJ058M0BlcmHUqMVfOJ/rEZWQAjqop7uNvyi6JV\ny+UNcRBiNwKBgQCBgzki2w0EtWwtpQFrhsOu1mRRiBIxbRICABwWKI+VFHXXhJtY\nHKgSHBaTLxv0DEM7tPbqkQGvWNliqFBBsei9QA1ESNSagcP6eeyTI3sNoI5ZEcy+\nYtDykQXGhtuxxDmGkGiNjhPcWZd77hEPiFdiUgNUrASzI3kRk2hK7frpwQKBgEgk\nQSnaXI9ukg0xrxnUf7yfg+oPVwM81F14+xd4kltgN/Uilvi6Li2+jAu+hfRpmqXC\nMKwhTAs6xa/nONX8H5d4/y/aV0nGJ1FcZ4a9B5HUtTg3TKhWR3ol9fgfCeUl1gel\nz/4uvPeoPZGNTRMmJE01zL3gSEaWS2E/ATJ0/yMlAoGAPSBBdIuhKT9HElSUY2iK\na0yd00amJQjrH61cauKsQdnR0hI008V+fZORYdyBi6GTZ2rfsP4JPGivSRGqe17q\nbZNi+aBblG0Zo9ckqisYe/+6b/4Y/4HxWLyO1NJJAY/WeR2TxE0Dwvmef5Pu5Dxm\nXWqZpxOYe0D44/2S+VbBDmY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "venkata@terraform-bigtable-1.iam.gserviceaccount.com",
+  "client_id": "106715105879075315792",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/venkata%40terraform-bigtable-1.iam.gserviceaccount.com"
+}

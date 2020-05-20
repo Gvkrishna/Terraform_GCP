@@ -1,0 +1,43 @@
+environment_name = "production"
+
+space_developers = [ ]
+
+# Find the locations with: # Find the locations with: ibmcloud ks zones
+cluster_datacenter = ""
+
+# Find the values for vlans with: ibmcloud ks vlans --zone <zone>
+cluster_public_vlan_id = ""
+
+cluster_private_vlan_id = ""
+
+worker_num = 3
+
+# Find the available machine types with: ibmcloud ks flavors --zone <zone>
+cluster_machine_type = "b2c.4x16"
+
+# Other option is dedicated
+cluster_hardware = "shared"
+
+# Plan for Cloudant database: lite or standard
+cloudantnosqldb_plan = "lite"
+
+# Find the available locations with: ibmcloud catalog service cloudantnosqldb
+cloudantnosqldb_location = ""
+
+# Plan for Cloud Object Storage: lite or standard
+cloudobjectstorage_plan = "lite"
+
+# Find the available locations with: ibmcloud catalog service cloud-object-storage
+cloudobjectstorage_location = "global"
+
+# Plan for LogDNA: lite, 7-day,14-day, 30-day
+logdna_plan = "30-day"
+
+# Find available locations with: ibmcloud catalog service logdna
+logdna_location = "us-south"
+
+# Plan for Sysdig-monitor: lite, graduated-tier
+sysdig_plan = "graduated-tier"
+
+# Find available locations with: ibmcloud catalog service sysdig-monitor
+sysdig_location = "us-south"
